@@ -1,8 +1,12 @@
 'use client';
 
-import PixelCard from '../../components/ui/PixelCard';
-import { Navbar } from '../../components/ui/navbar';
-import { Footer } from '../../components/ui/footer-section';
+import dynamic from 'next/dynamic';
+
+// Disable SSR for components that may touch window/document
+const PixelCard = dynamic(() => import('../../components/ui/PixelCard'), { ssr: false });
+const Navbar = dynamic(() => import('../../components/ui/navbar').then(mod => mod.Navbar), { ssr: false });
+const Footer = dynamic(() => import('../../components/ui/footer-section').then(mod => mod.Footer), { ssr: false });
+
 
 const SPONSORS = {
     title: [
