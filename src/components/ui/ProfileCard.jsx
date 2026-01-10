@@ -37,10 +37,14 @@ const ProfileCardComponent = ({
     status = 'Online',
     contactText = 'Contact',
     showUserInfo = true,
+    email,
+    linkedin,
     onContactClick
 }) => {
     const wrapRef = useRef(null);
     const shellRef = useRef(null);
+
+
 
     const enterTimerRef = useRef(null);
     const leaveRafRef = useRef(null);
@@ -294,7 +298,7 @@ const ProfileCardComponent = ({
 
     const cardStyle = useMemo(
         () => ({
-            '--icon': iconUrl ? `url(${iconUrl})` : 'none',
+            '--icon': iconUrl ? `url(${iconUrl})` : 'linear-gradient(#fff, #fff)',
             '--grain': grainUrl ? `url(${grainUrl})` : 'none',
             '--inner-gradient': innerGradient ?? DEFAULT_INNER_GRADIENT,
             '--behind-glow-color': behindGlowColor ?? 'rgba(125, 190, 255, 0.67)',
@@ -313,8 +317,7 @@ const ProfileCardComponent = ({
             <div ref={shellRef} className="pc-card-shell">
                 <section className="pc-card">
                     <div className="pc-inside">
-                        {iconUrl && <div className="pc-shine" />}
-                        {iconUrl && <div className="pc-glare" />}
+
                         <div className="pc-content pc-avatar-content">
                             <img
                                 className="avatar"
@@ -329,11 +332,11 @@ const ProfileCardComponent = ({
                             {showUserInfo && (
                                 <div className="pc-user-info" style={{ justifyContent: 'center' }}>
                                     <div className="pc-social-icons">
-                                        <a href="#" className="pc-icon-link" aria-label="Email">
-                                            <Mail size={16} />
+                                        <a href={email ? (email.startsWith('http') ? email : `mailto:${email}`) : '#'} target={email?.startsWith('http') ? "_blank" : "_self"} className="pc-icon-link" aria-label="Email">
+                                            <Mail size={20} />
                                         </a>
-                                        <a href="#" className="pc-icon-link" aria-label="LinkedIn">
-                                            <Linkedin size={16} />
+                                        <a href={linkedin || '#'} target="_blank" rel="noopener noreferrer" className="pc-icon-link" aria-label="LinkedIn">
+                                            <Linkedin size={20} />
                                         </a>
                                     </div>
                                 </div>

@@ -18,10 +18,11 @@ const legacyData = [
                         We secured AIR 9th in ROBOCON 2025.
                     </>
                 ),
-                image: "/achievements/legacy-placeholder.jpg"
+                image: "/achievements/image.png"
             },
             {
                 title: "IRC 2025",
+                videoLink: "https://youtu.be/7J0k4ZvheAQ?si=YA8VeOxtwdOJ9kxQ",
                 description: (
                     <>
                         International Rover Challenge participation with Kartikeya.
@@ -29,7 +30,7 @@ const legacyData = [
                         We secured AIR 19th in IRC 2025.
                     </>
                 ),
-                image: "/achievements/legacy-placeholder.jpg"
+                image: "/achievements/IRC 25 Day1 [DoPy] 39.jpg"
             }
         ]
     },
@@ -37,6 +38,7 @@ const legacyData = [
         year: "2024",
         type: "single",
         title: "ROBOCON 2024",
+        videoLink: "https://youtu.be/DXIuxyKSqgY?si=1GdR49Y3JrqN_ng5",
         description: (
             <>
                 The theme for the 2024 Asia-Pacific Broadcasting Union (ABU) Robocon was "Harvest Day", hosted by Vietnam which was inspired by rice cultivation on terraced fields.
@@ -50,6 +52,7 @@ const legacyData = [
         year: "2023",
         type: "single",
         title: "ROBOCON 2023",
+        videoLink: "https://youtu.be/mOXJfGUyQSk?si=7CLtjkp6j0DatDMs",
         description: (
             <>
                 The competition is to cast flowers over Angkor Wat by the corporation of a rabbit robot and an elephant robot. The actual competition is "Ring Toss Game" using blue and red rings made of rubber hoses instead of flowers.
@@ -62,6 +65,7 @@ const legacyData = [
     {
         year: "2022",
         title: "ROBOCON 2022",
+        videoLink: "https://youtu.be/o7pQHNqg1bE?si=rvksWLzVxY9O5jJG",
         description: (
             <>
                 The 2022 competition featured an exhilarating game of Lagori, where robots from two teams—Red and Blue—competed against each other.
@@ -74,6 +78,7 @@ const legacyData = [
     {
         year: "2021",
         title: "ROBOCON 2021",
+        videoLink: "https://youtu.be/lFrL7hwMCz8?si=jquDCUgElr-VpdW_",
         description: (
             <>
                 Throwing arrows into pots, a traditional etiquette and game in ancient China.
@@ -86,6 +91,7 @@ const legacyData = [
     {
         year: "2020",
         title: "ROBOCON 2020",
+        videoLink: "https://youtu.be/9Gwg4JXFjV0?si=39sJq7iZTieKZAZm",
         description: (
             <>
                 ROBO RUGBY 7s, a game based on Fiji's national sport, where game field and zones were designed like a rugby ground.
@@ -98,6 +104,7 @@ const legacyData = [
     {
         year: "2019",
         title: "ROBOCON 2019",
+        videoLink: "https://youtu.be/tAvVfpZSpZo?si=hQZRMk7EgPwy-YrM",
         description: (
             <>
                 The theme was "Sharing the knowledge". It is related to the Urtuu system of Mongolian tradition.
@@ -110,6 +117,7 @@ const legacyData = [
     {
         year: "2018",
         title: "ROBOCON 2018",
+        videoLink: "https://youtu.be/GAjVA2u-_1s?si=6ltKaU73Hyc1o-1Y",
         description: (
             <>
                 The theme comes from a traditional game in ethnic region of Vietnam, namely ném còn (throwing shuttlecock).
@@ -122,6 +130,7 @@ const legacyData = [
     {
         year: "2017",
         title: "ROBOCON 2017",
+        videoLink: "https://youtu.be/boUMyBLQ_O0?si=ErIIq8-XF2oQ53uP",
         description: (
             <>
                 The theme of ABU ASIA-PACIFIC ROBOCON 2017 was “Asobi”(play) which encouraged playful and original robot designs.
@@ -134,6 +143,7 @@ const legacyData = [
     {
         year: "2016",
         title: "ROBOCON 2016",
+        videoLink: "https://youtu.be/pZNNk8EN8DU?si=b0mpBSF_82uctJFt",
         description: (
             <>
                 ABU Robocon 2016 was designed to create an awareness of efficient energy consumption and clean and renewable energy utilization.
@@ -146,6 +156,7 @@ const legacyData = [
     {
         year: "2015",
         title: "ROBOCON 2015",
+        videoLink: "https://youtu.be/4TOIizkzpss?si=WB1qwJfGDltwWY_X",
         description: (
             <>
                 The motive of this contest theme was inspired by the doubles game of badminton.
@@ -183,7 +194,18 @@ const LegacyCard = ({ data }) => {
                 {/* Hover Content Overlay */}
                 <div className="absolute inset-0 bg-black/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center z-10">
                     <h3 className="text-2xl font-bold text-purple-300 mb-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        {data.title}
+                        {data.videoLink ? (
+                            <a
+                                href={data.videoLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-purple-100 hover:underline transition-colors"
+                            >
+                                {data.title}
+                            </a>
+                        ) : (
+                            data.title
+                        )}
                     </h3>
                     <p className="text-gray-300 text-sm md:text-base transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
                         {data.description}

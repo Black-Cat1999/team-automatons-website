@@ -51,7 +51,7 @@ export function Section() {
               ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}
             `}
                     >
-                        Raising to the challenge raised by dreams.
+                        Rising to the challenge raised by dreams.
                     </p>
                 </div>
             </div>

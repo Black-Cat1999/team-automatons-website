@@ -48,7 +48,7 @@ export function Footer() {
                         <span className="text-xl font-bold">Team Automatons</span>
                     </div>
                     <p className="text-gray-400 mt-8 text-sm md:mt-0 max-w-xs">
-                        Raising to the challenge raised by dreams.
+                        Rising to the challenge raised by dreams.
                     </p>
                     <p className="text-gray-500 text-xs">
                         © {new Date().getFullYear()} Team Automatons. All rights reserved.

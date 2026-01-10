@@ -41,30 +41,23 @@
     position: absolute;
     font-weight: 900;
     font-size: 3rem;
-    left: 1.6em;
-    top: 50%;
+    left: 5%;
+    bottom: 10%;
+    /* Moved from top: 50% */
+    top: auto;
+    /* Reset top */
     color: white;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     z-index: 5;
+    transform: translate(0, 0);
+    /* Reset centering */
 }
 
-.action-button-icon {
-    user-select: none;
-    position: relative;
-    color: #fff;
-    top: 2px;
-    font-size: 26px;
-}
-
-.face-title {
-    position: absolute;
-    top: 50%;
-    transform: translate(20%, -50%);
-}
+/* Removed duplicate .face-title rule blocks to consolidate styles */
 
 .face-title.active {
     opacity: 1;
-    transform: translate(20%, -50%);
+    transform: translateY(0);
     pointer-events: auto;
     transition: 0.5s ease;
 }
@@ -72,6 +65,7 @@
 .face-title.inactive {
     pointer-events: none;
     opacity: 0;
+    transform: translateY(20px);
     transition: 0.1s ease;
 }
 
@@ -79,26 +73,29 @@
     user-select: none;
     position: absolute;
     max-width: 250px;
-    top: 50%;
+    bottom: 10%;
+    /* Moved from top: 50% */
+    top: auto;
+    /* Reset top */
+    right: 5%;
     font-size: 1.2rem;
-    right: 15%;
-    transform: translate(0, -50%);
     color: #d1d5db;
-    /* gray-300 */
     text-align: right;
     z-index: 5;
+    transform: translate(0, 0);
+    /* Reset centering */
 }
 
 .face-description.active {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translateY(0);
     pointer-events: auto;
     transition: 0.5s ease;
 }
 
 .face-description.inactive {
     pointer-events: none;
-    transform: translate(20px, -50%);
+    transform: translateY(20px);
     opacity: 0;
     transition: 0.1s ease;
 }

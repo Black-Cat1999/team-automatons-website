@@ -7,29 +7,29 @@ const missions = [
         id: "ABEx",
         title: "ABEx",
         subtitle: "Astrobiology Expedition",
-        description: "The rover acts as a Mobile Science Laboratory to collect samples and perform analysis to seek signs of life. Our approach involves precision drilling and onboard spectrographic analysis.",
-        image: "/irc/lighthouse.jpg" // Dummy image
+        description: "The Astrobiology Expedition transformed our rover into a mobile science laboratory operating in a simulated Martian terrain. Our objective was to identify scientifically promising sites and analyze their potential to support microbial life. The rover performed terrain exploration, panoramic imaging, and close-up documentation to justify sample site selection. Using onboard instruments, we measured parameters such as subsurface temperature, humidity, pH, and atmospheric conditions. Our rover successfully collected a subsurface soil sample from beyond 10 cm depth and sealed it in a contamination-free cache. All scientific analysis was performed autonomously on the rover, replicating real Mars mission constraints. The mission concluded with a detailed science report explaining our findings and their relevance to Martian habitability. This task tested our scientific thinking, data interpretation, and precision engineering under strict time limits.",
+        image: "irc/image.png" // Dummy image
     },
     {
         id: "R&DO",
         title: "R&DO",
         subtitle: "Reconnaissance and Delivery Operation",
-        description: "The rover reconnaissance an area to search, locate, pick up, and deliver objects to specific locations. We utilize advanced computer vision processing for autonomous object detection.",
-        image: "/irc/lighthouse.jpg" // Dummy image
+        description: "The Reconnaissance and Autonomous Delivery Operation challenged our rover’s navigation, perception, and autonomy capabilities. In the reconnaissance phase, the rover explored a wide terrain, identified scattered objects, and logged their GPS coordinates with visual confirmation. Strategic path planning was crucial to maximize coverage within limited time. During the autonomous delivery phase, the rover picked up selected objects and delivered them to designated locations using GPS-based navigation. Full autonomy during delivery demanded accurate localization, obstacle handling, and stable control logic. Our robotic arm and storage mechanism played a key role in reliable object handling. This mission emphasized real-world challenges faced in extraterrestrial logistics and supply operations. Successfully completing it demonstrated our rover’s readiness for long-range, semi-autonomous missions.",
+        image: "/irc/Rado.webp" // Dummy image
     },
     {
         id: "ID&MO",
         title: "ID&MO",
         subtitle: "Instrument Deployment and Maintenance Operation",
-        description: "The rovers traverses a short distance to operate on a mock-up instrument panel to perform a set of precise operations. Our robotic arm features 6 degrees of freedom for maximum dexterity.",
+        description: "The IDMO task focused on precision manipulation and fine motor control using a robotic arm. Our rover performed complex maintenance actions such as opening panels, operating switches, turning knobs, and inserting connectors. Each operation demanded high positional accuracy and stable vision feedback from onboard cameras. In the deployment phase, the rover transported instrument caches and placed them in predefined orientations at designated locations. After deployment, the rover identified and relayed coded information displayed on the instruments to the base station team. This task closely simulated astronaut-assistive robotic operations on Mars. It tested not only mechanical design but also control algorithms and operator coordination. IDMO truly highlighted the importance of dexterity and reliability in space robotics.",
         image: "/irc/lighthouse.jpg" // Dummy image
     },
     {
         id: "PIMA",
         title: "PIMA",
         subtitle: "Project Implementation and Management Assessment",
-        description: "PIMA will have one-to-one interaction between the teams and the judges about their rover development. Our team emphasizes agile methodologies and robust documentation practices.",
-        image: "/irc/lighthouse.jpg" // Dummy image
+        description: "The Project Implementation and Management Assessment evaluated our team beyond just the rover’s performance. We presented the complete lifecycle of our project, from ideation and design to manufacturing, testing, and iteration. Judges assessed our system engineering approach, task distribution, failure handling, and timeline management. We discussed challenges faced during development and how we adapted our strategies to overcome them. The session also allowed us to showcase technical trade-offs and design evolution. PIMA reflected our ability to work as a cohesive engineering team under real-world constraints. It validated not just what we built, but how responsibly and efficiently we built it. This assessment strengthened our understanding of large-scale engineering project execution.",
+        image: "/irc/IRC 25 Day1 [DoPy] 84.jpg"
     }
 ];
 
@@ -102,7 +102,7 @@ const AnimatedBlock = ({ mission, index, isAlternate }) => {
                             {/* Placeholder for specific mission stats or icon */}
                             <p className="text-gray-300 text-sm flex items-center gap-2">
                                 <span className="text-purple-400">✦</span>
-                                Dummy content for {mission.title}
+                                {mission.title}
                             </p>
                         </div>
                     </div>

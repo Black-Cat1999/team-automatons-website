@@ -43,14 +43,14 @@ export default function ContactPage() {
 
     // Mock data for the cards as requested (2 then 3)
     const ROW_1 = [
-        { name: 'Dr. Sanjay B. Matekar', title: 'Faculty Co-ordinator', handle: 'ritik.lipate', status: 'Offline', avatarUrl: '/contact/matekar sir.png' },
-        { name: 'Dr. Varsha S. Bendre', title: 'Faculty Co-ordinator', handle: 'nimisha.halabe', status: 'Offline', avatarUrl: '/contact/avatar_new.png' }
+        { name: 'Dr. Sanjay B. Matekar', title: 'Faculty Co-ordinator', handle: '', status: 'Offline', avatarUrl: '/contact/matekar sir.png', email: 'https://mail.google.com/mail/?view=cm&fs=1&to=sanjay.matekar@pccoepune.org', linkedin: 'https://www.linkedin.com/in/sanjay-matekar-72253b149/' },
+        { name: 'Dr. Varsha S. Bendre', title: 'Faculty Co-ordinator', handle: ' ', status: 'Offline', avatarUrl: '/contact/avatar_new.png', email: 'https://mail.google.com/mail/?view=cm&fs=1&to=varsha.bendre@pccoepune.org', linkedin: 'https://www.linkedin.com/in/dr-varsha-s-bendre-590b633b/' }
     ];
 
     const ROW_2 = [
-        { name: 'Piyush Patil', title: 'Managing Director', handle: 'member.one', status: 'Offline', avatarUrl: '/contact/piyush.png' },
-        { name: 'Vardhan Khinvasara', title: 'Co-Managing Director ', handle: 'member.two', status: 'Offline', avatarUrl: '/contact/vardhan.png' },
-        { name: 'Atharva Junghare', title: 'Co-Managing Director', handle: 'member.three', status: 'Offline', avatarUrl: '/contact/atharv.png' }
+        { name: 'Piyush Patil', title: 'Managing Director', handle: 'member.one', status: 'Offline', avatarUrl: '/team/2026/Piyush.webp', email: 'https://mail.google.com/mail/?view=cm&fs=1&to=piyushspatil225@gmail.com', linkedin: 'https://www.linkedin.com/in/piyush-patil-8630ab292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+        { name: 'Vardhan Khinvasara', title: 'Co-Managing Director ', handle: 'member.two', status: 'Offline', avatarUrl: '/team/2026/Vardhan.webp', email: 'https://mail.google.com/mail/?view=cm&fs=1&to=vardhansk18115@gmail.com', linkedin: 'https://www.linkedin.com/in/vardhan-santosh-khinvasara-9a79a8296/' },
+        { name: 'Atharva Junghare', title: 'Co-Managing Director', handle: 'member.three', status: 'Offline', avatarUrl: '/team/2026/Atharva.webp', email: 'https://mail.google.com/mail/?view=cm&fs=1&to=%20atharva.junghare2005@gmail.com', linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' }
     ];
 
     // Specific props requested by the user
@@ -98,6 +98,8 @@ export default function ContactPage() {
                                     handle={person.handle}
                                     status={person.status}
                                     avatarUrl={person.avatarUrl}
+                                    email={person.email}
+                                    linkedin={person.linkedin}
                                     {...cardProps}
                                 />
                             </div>
@@ -114,6 +116,8 @@ export default function ContactPage() {
                                     handle={person.handle}
                                     status={person.status}
                                     avatarUrl={person.avatarUrl}
+                                    email={person.email}
+                                    linkedin={person.linkedin}
                                     {...cardProps}
                                 />
                             </div>

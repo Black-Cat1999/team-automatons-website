@@ -87,7 +87,7 @@ const ModelInner = ({
 
     const pivotW = useRef(new THREE.Vector3());
     useLayoutEffect(() => {
-        if (!content) return;
+        if (content) return;
         const g = inner.current;
         g.updateWorldMatrix(true, true);
 

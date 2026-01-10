@@ -4,26 +4,41 @@ import React, { useRef, useEffect, useState } from 'react';
 
 const exhibitions = [
     {
-        id: "Events - 01",
-        title: "Global Expo",
-        subtitle: "Future Tech Exhibition",
-        description: "Showcasing our latest rover capabilities to an international audience. The interactive booth allowed visitors to control the robotic arm remotely.",
-        images: ["/events/team.jpg", "/events/team.jpg"] // Placeholder slideshow
+        id: "Exhibition - 01",
+        title: "Empowering Innovation at MSME Vendor Development Expo",
+        subtitle: "Empowering Innovation at MSME Vendor Development Expo",
+        description: "Proud to participate as an exhibitor in the MSME & IIF Vendor Development Programme cum Exhibition held at PCCOE Pune, a vibrant platform fostering industry–academia collaboration. The two-day event featured insightful sessions by DRDO experts, highlighting innovation, indigenous manufacturing, and opportunities for MSMEs and student innovators. As Team Automatons, we showcased our in-house developed solutions and gained valuable feedback from industry professionals. Grateful to our mentors and PCCOE for the opportunity to learn, connect, and grow at this prestigious expo.",
+        images: ["/events/image.png", "/events/image copy.png", "/events/image copy 2.png", "/events/image copy 3.png"] // Placeholder slideshow
     },
     {
-        id: "Events - 02",
-        title: "Science Fair",
-        subtitle: "University Science Day",
-        description: "Engaging with students and faculty to demonstrate the principles of space robotics. We performed live demo runs of the autonomous navigation system.",
-        images: ["/events/team.jpg", "/events/team.jpg"]
+        id: "Exhibition - 02",
+        title: "ROSCon India 2025: Exploring the Future of Robotics with ROS",
+        subtitle: "ROSCon India 2025: Exploring the Future of Robotics with ROS",
+        description: "Attending ROSCon India 2025 was an inspiring two-day journey into the evolving ROS and ROS 2 ecosystem, filled with deep technical insights and real-world applications. The conference brought together researchers, startups, industry leaders, and students, fostering meaningful discussions on robotics architecture, perception, scalability, and emerging middleware technologies. Live robot demonstrations and startup-focused sessions offered valuable exposure to innovation and investment perspectives in deep-tech robotics. Grateful for the learnings, connections, and inspiration to apply these insights in future robotics projects.",
+        images: ["/events/image copy 4.png", "/events/image copy 5.png", "/events/image copy 6.png", "/events/image copy 7.png", "/events/image copy 8.png"]
     },
     {
-        id: "Events - 03",
+        id: "Exhibition - 03",
         title: "Tech Summit",
-        subtitle: "Innovation Summit 2025",
-        description: "A gathering of industry leaders where we presented our research on sustainable rover chassis design. Received accolades for our novel suspension system.",
-        images: ["/events/team.jpg", "/events/team.jpg"]
+        subtitle: "Collegiate Clubs Exhibition: Exploring Opportunities Beyond the Classroom",
+        description: "An exhibition was organized by the collegiate clubs to introduce first-year students to the diverse technical, cultural, and professional clubs on campus. The event provided an excellent platform for FY students to explore club activities, ongoing projects, and opportunities for skill development. Interactive stalls and engaging demonstrations helped students gain clarity about their interests and avenues for involvement. Overall, the exhibition played a key role in encouraging participation, collaboration, and holistic growth from the very beginning of college life.",
+        images: ["/events/image copy 9.png", "/events/image copy 10.png", "/events/image copy 11.png", "/events/image copy 12.png"]
+    },
+    {
+        id: "Exhibition - 04",
+        title: "MSME Defence Exhibition 2024: Showcasing Innovation & Indigenous Capability",
+        subtitle: "MSME Defence Exhibition 2024: Showcasing Innovation & Indigenous Capability",
+        description: "The MSME Defence Exhibition 2024 served as a dynamic platform highlighting innovation, indigenous manufacturing, and advanced technologies in the defence sector. The exhibition brought together MSMEs, industry experts, policymakers, and innovators to explore collaboration and vendor development opportunities. It offered valuable insights into defence requirements, emerging technologies, and the growing role of MSMEs in strengthening India’s self-reliant defence ecosystem.",
+        images: ["/events/image copy 13.png", "/events/image copy 14.png"]
+    },
+    {
+        id: "Exhibition - 05",
+        title: "MSME Defence Exhibition 2024: Showcasing Innovation & Indigenous Capability",
+        subtitle: "National Science Day: College-Level Science & Innovation Exhibition",
+        description: "The National Science Day College Exhibition celebrated scientific curiosity, innovation, and research-driven thinking among students. The event provided a platform to showcase creative projects, experiments, and technological solutions across diverse domains of science and engineering. It encouraged knowledge sharing, interdisciplinary learning, and inspired students to explore the impact of science on society and national development.",
+        images: ["/events/image copy 15.png"]
     }
+
 ];
 
 const SlideshowBlock = ({ item, index, isAlternate }) => {

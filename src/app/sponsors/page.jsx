@@ -10,27 +10,40 @@ const Footer = dynamic(() => import('../../components/ui/footer-section').then(m
 
 const SPONSORS = {
     title: [
-        { name: '3deology', logo: '/sponsors/3deology.png' }
+        // { name: '3deology', logo: '/sponsors/3deology.png' },
+        { name: 'PCCOE ', logo: 'logos/pccoe-logo-new-removebg-preview.png', href: "https://www.pccoepune.com/" }
     ],
     platinum: [
-        { name: 'Altium', logo: '/logos/altium_logo.png', href: "https://altium.com" },
-        { name: 'Altium', logo: '/logos/altium_logo.png', href: "https://altium.com" },
-
+        { name: '3deology', logo: '/logos/3deology.png', href: "https://www.3deology.co.in/" },
+        { name: 'MAHLE', logo: '/logos/image copy 6.png', href: "https://mahle.com/" },
+        { name: 'Solidworks', logo: '/logos/image copy 2.png', href: "https://www.solidworks.com/" },
+        { name: 'Altium', logo: '/logos/altium_logo.png', href: "https://altium.com/" },
+        { name: 'TechnoWings', logo: '/logos/image copy 3.png', href: "https://technowingsind.com/" },
+        { name: 'Odrive', logo: '/logos/image copy 4.png', href: "https://odriverobotics.com/" },
     ],
     gold: [
-        { name: 'Ashok Laser', logo: '/logos/ashok laser.jpg', href: "https://ashoklaser.com" },
-        { name: 'Baker', logo: '/logos/baker.png', href: "https://baker.com" },
-        { name: 'BG Enter', logo: '/logos/bg-enter.png', href: "https://bgenter.com" },
-        { name: 'Odrive', logo: '/logos/odrive.jpg', href: "https://odrive.com" },
+        { name: 'Arihant ', logo: 'logos/arihant-removebg-preview.png', href: "https://www.google.com/maps/place/Arihant+Electrical+Services,+Mahindra+Gate+2,+Maharashtra+410501/data=!4m2!3m1!1s0x3bc2b71f8aa53579:0x2ae99224ae170c37?utm_source=mstt_1&entry=gps&lucs=47068609&g_ep=CAESCTExLjgzLjMwMRgAINeCAyoINDcwNjg2MDlCAklO" },
+        { name: 'YOJAK', logo: '/logos/image copy 5.png', href: "https://yojak.org/" },
+        { name: 'CYTRON', logo: '/logos/image copy 7.png', href: "https://www.cytron.io/" },
+        { name: 'SEQURE', logo: '/logos/image copy 8.png', href: "https://sequremall.com/" },
+        { name: 'Microlaser', logo: '/logos/microlaser.PNG', href: "https://microlaser.com" },
+
     ],
     silver: [
-        { name: 'Microlaser', logo: '/logos/microlaser.PNG', href: "https://microlaser.com" }
+        { name: 'Ashok Laser', logo: '/logos/ashok laser.jpg', href: "https://ashoklaser.com/" },
+        { name: 'Baker', logo: '/logos/baker.png', href: "https://bakergauges.com/" },
+        { name: 'Fabxotic', logo: '/logos/image copy 10.png', href: "https://www.fabxotic.com/" },
+        { name: 'SK Tooling', logo: '/logos/image copy 11.png', href: "https://maps.app.goo.gl/aVtCzpCbYfgwKoHh9" },
+        { name: 'MOLEX', logo: '/logos/copy image 13.png', href: "https://www.molex.com/en-us/home" },
+        { name: 'Only Screws', logo: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" }
     ],
     bronze: [
-        { name: 'Ashok Laser', logo: '/logos/ashok laser.jpg', href: "https://ashoklaser.com" },
-        { name: 'Baker', logo: '/logos/baker.png', href: "https://baker.com" },
-        { name: 'BG Enter', logo: '/logos/bg-enter.png', href: "https://bgenter.com" },
-        { name: 'Odrive', logo: '/logos/odrive.jpg', href: "https://odrive.com" },
+        { name: 'Dhanashree Lathe ', logo: '/logos/dhan-removebg-preview.png', href: "https://maps.app.goo.gl/LdXgyBqwPoz2zK2r9" },
+        { name: 'VR Coatings', logo: 'logos/image copy 14.png', href: 'https://www.vrcoatings.net/' },
+        { name: 'Tech Star', logo: 'logos/tech-removebg-preview.png', href: 'https://maps.app.goo.gl/ToVJDgKjR2dfNbdM7' },
+        { name: 'Sourcepoint', logo: 'logos/image copy 15.png', href: 'https://www.sourcepointindia.com/' },
+        { name: 'Ploymaker', logo: 'logos/ploymaker.png', href: "https://polymaker.com/" },
+        { name: 'Santosh Engineering Work', logo: 'logos/image copy.png', href: "https://maps.app.goo.gl/QpUiN9akvKrxq7po6" },
     ]
 };
 
@@ -60,17 +73,25 @@ export default function SponsorsPage() {
                             </h2>
                             <div className="flex flex-wrap justify-center gap-10">
                                 {sponsors.map((sponsor, idx) => (
-                                    <PixelCard key={idx} variant={TIER_CONFIG[tier].variant}>
-                                        <div className="absolute inset-0 flex items-center justify-center p-8 z-10">
-                                            <div className="relative w-full h-full flex items-center justify-center filter drop-shadow-xl transition-transform duration-300 hover:scale-105">
-                                                <img
-                                                    src={sponsor.logo}
-                                                    alt={sponsor.name}
-                                                    className="max-w-full max-h-full object-contain"
-                                                />
+                                    <a
+                                        key={idx}
+                                        href={sponsor.href || '#'}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={`block transition-transform duration-300 ${sponsor.href ? 'cursor-pointer hover:scale-105' : 'cursor-default pointer-events-none'}`}
+                                    >
+                                        <PixelCard variant={TIER_CONFIG[tier].variant}>
+                                            <div className="absolute inset-0 flex items-center justify-center p-8 z-10">
+                                                <div className="relative w-full h-full flex items-center justify-center filter drop-shadow-xl">
+                                                    <img
+                                                        src={sponsor.logo}
+                                                        alt={sponsor.name}
+                                                        className="max-w-full max-h-full object-contain"
+                                                    />
+                                                </div>
                                             </div>
-                                        </div>
-                                    </PixelCard>
+                                        </PixelCard>
+                                    </a>
                                 ))}
                             </div>
                         </div>

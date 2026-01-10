@@ -5,31 +5,66 @@ import React, { useRef, useEffect, useState } from 'react';
 const workshops = [
     {
         id: "Workshop - 01",
-        title: "PCB Design",
-        subtitle: "Advanced PCB Design Workshop",
-        description: "A comprehensive session on designing multi-layer PCBs for space applications. Students learned about signal integrity, EMI/EMC considerations, and manufacturing processes.",
+        title: "Robotics Workshop",
+        subtitle: "Robotics Workshop",
+        description: "A robotics workshop was organized at the rural school to introduce students to the basics of robotics, coding, and automation. Through hands-on activities, students learned to build and program simple robots, fostering creativity, problem-solving skills, and an interest in STEM education. ",
         image: "/events/team.jpg"
     },
     {
         id: "Workshop - 02",
-        title: "3D Modelling",
-        subtitle: "CAD & Generative Design",
-        description: "Teaching the fundamentals of 3D modelling and topology optimization. Participants designed lightweight rover components using industry-standard software.",
-        image: "/events/team.jpg"
+        title: "Mentoring FTC Workshop",
+        subtitle: "Mentoring FTC Workshop",
+        description: "The Mentoring FTC Workshop provided hands-on experience with additive manufacturing and rapid prototyping. Participants learned about 3D modeling, printing processes, and material selection to transform designs into physical objects. The workshop encouraged creativity, innovation, and practical understanding of modern manufacturing technologies.",
+        image: " "
     },
     {
         id: "Workshop - 03",
-        title: "Autonomous Sys",
-        subtitle: "ROS2 & Navigation Stack",
-        description: "Deep dive into Robot Operating System 2. We covered SLAM, path planning, and sensor fusion techniques for autonomous mobile robots.",
-        image: "/events/team.jpg"
+        title: "Matlabs Mathworks Workshop",
+        subtitle: "MATLAB & Simulink Workshop",
+        description: "Teaching the fundamentals of 3D modelling and topology optimization. Participants designed lightweight rover components using industry-standard software.",
+        image: "/events/image copy 16.png"
     },
     {
         id: "Workshop - 04",
-        title: "Mechanical Integration",
-        subtitle: "Rover Assembly Bootcamp",
-        description: "Hands-on assembly workshop where participants put together a simplified rover chassis, learning about suspension kinematics and drive systems.",
-        image: "/events/team.jpg"
+        title: "",
+        subtitle: "BXE Arduino Workshop",
+        description: "The BXE Arduino Workshop offered a practical introduction to embedded systems and microcontroller-based development. Participants gained hands-on experience with Arduino programming, circuit design, and real-time hardware interfacing. The workshop strengthened foundational concepts while encouraging innovation, problem-solving, and application-oriented learning.",
+        image: "/events/image copy 17.png"
+    },
+    {
+        id: "Workshop - 05",
+        title: "MQuadruped Introduction Workshop",
+        subtitle: "Quadruped Introduction Workshop",
+        description: "The Quadruped Introduction Workshop provided an engaging overview of legged robotic systems and their real-world applications. Participants learned about quadruped robot mechanics, control concepts, and basic locomotion principles through interactive sessions. The workshop sparked interest in advanced robotics while building a strong foundation in modern robotic mobility systems.",
+        image: "/events/image copy 18.png"
+    },
+    {
+        id: "Workshop - 06",
+        title: "Sensor Interfacing Workshop",
+        subtitle: "Sensor Interfacing Workshop",
+        description: "The Sensor Interfacing Workshop focused on understanding and implementing various sensors used in modern electronic and robotic systems. Participants gained hands-on experience in connecting, calibrating, and reading data from sensors using microcontrollers. The workshop enhanced practical knowledge of real-time data acquisition and its role in intelligent system design.",
+        image: "/events/image copy 20.png"
+    },
+    {
+        id: "Workshop - 07",
+        title: "Pneumatic Systems Workshop: Fundamentals of Industrial Automation",
+        subtitle: "Pneumatic Systems Workshop: Fundamentals of Industrial Automation",
+        description: "The Pneumatic Systems Workshop introduced participants to the principles and applications of pneumatic technology in industrial automation. The session covered components, circuit design, and working mechanisms through practical demonstrations. It provided valuable insights into how pneumatic systems are used for efficient, safe, and reliable automation solutions.",
+        image: "/events/image copy 21.png"
+    },
+    {
+        id: "Workshop - 08",
+        title: "Microcontroller Workshop",
+        subtitle: "Microcontroller Workshop",
+        description: "The Microcontroller Workshop offered a hands-on introduction to programming and interfacing microcontrollers for real-world applications. Participants explored core concepts such as digital I/O, communication protocols, and peripheral integration. The workshop strengthened embedded systems fundamentals while encouraging practical problem-solving and innovation.",
+        image: "/events/image copy 22.png"
+    },
+    {
+        id: "Workshop - 09",
+        title: "Microcontroller Workshop",
+        subtitle: "3D Printing Technology Workshop: Turning Ideas into Reality",
+        description: "The 3D Printing Technology Workshop provided hands-on experience with additive manufacturing and rapid prototyping. Participants learned about 3D modeling, printing processes, and material selection to transform designs into physical objects. The workshop encouraged creativity, innovation, and practical understanding of modern manufacturing technologies.",
+        image: "/events/image copy 23.png"
     }
 ];
 
