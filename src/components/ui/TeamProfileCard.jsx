@@ -10,7 +10,10 @@ const LinkedinIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
 );
 
-export function TeamProfileCard({ name, role, photo, email, linkedin }) {
+import { getCloudinaryUrl } from '@/lib/cloudinary';
+
+export function TeamProfileCard({ name, role, companyRole, photo, email, linkedin }) {
+    const optimizedPhoto = getCloudinaryUrl(photo);
     return (
         <div className="relative w-full p-4"> {/* Padding to accommodate the electric noise which extends outside */}
             <div className="relative w-full h-full rounded-2xl p-[2px] overflow-hidden group shadow-[0_0_15px_rgba(176,38,255,0.3)]">
@@ -23,7 +26,7 @@ export function TeamProfileCard({ name, role, photo, email, linkedin }) {
                     <div className="relative w-full aspect-[4/3] overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80 z-10" />
                         <img
-                            src={photo || "/team/member.jpg"}
+                            src={optimizedPhoto || "/team/member.jpg"}
                             alt={name}
                             className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                         />
@@ -56,6 +59,7 @@ export function TeamProfileCard({ name, role, photo, email, linkedin }) {
                     <div className="p-4 text-center border-t border-purple-500/20 bg-black/80 backdrop-blur-md relative z-20">
                         <h3 className="text-sm font-bold text-white group-hover:text-purple-400 transition-colors uppercase tracking-wider">{name}</h3>
                         <p className="text-xs text-purple-400/80 font-mono mt-1">{role}</p>
+                        {companyRole && <p className="text-[10px] text-gray-400 font-mono mt-1 italic">{companyRole}</p>}
                     </div>
                 </div>
             </div>

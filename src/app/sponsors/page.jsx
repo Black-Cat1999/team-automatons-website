@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 // Disable SSR for components that may touch window/document
 const PixelCard = dynamic(() => import('../../components/ui/PixelCard'), { ssr: false });
@@ -35,7 +36,8 @@ const SPONSORS = {
         { name: 'Fabxotic', logo: '/logos/image copy 10.png', href: "https://www.fabxotic.com/" },
         { name: 'SK Tooling', logo: '/logos/image copy 11.png', href: "https://maps.app.goo.gl/aVtCzpCbYfgwKoHh9" },
         { name: 'MOLEX', logo: '/logos/copy image 13.png', href: "https://www.molex.com/en-us/home" },
-        { name: 'Only Screws', logo: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" }
+        { name: 'Only Screws', logo: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" },
+        { name: 'Slamtec', logo: '/logos/image.png', href: "https://www.slamtec.com/en?gad_source=1&gad_campaignid=22761052052&gclid=CjwKCAiAjojLBhAlEiwAcjhrDu-3GhE6CfJO7UHLjn3WiTVN9Xs7dnYXhkFhsIRMCwAY4wXTbIwoCRoCcygQAvD_BwE" },
     ],
     bronze: [
         { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8" },
@@ -86,7 +88,7 @@ export default function SponsorsPage() {
                                             <div className="absolute inset-0 flex items-center justify-center p-8 z-10">
                                                 <div className="relative w-full h-full flex items-center justify-center filter drop-shadow-xl">
                                                     <img
-                                                        src={sponsor.logo}
+                                                        src={getCloudinaryUrl(sponsor.logo)}
                                                         alt={sponsor.name}
                                                         className="max-w-full max-h-full object-contain"
                                                     />

@@ -4,6 +4,7 @@ import { WhatWeDo } from '@/components/blocks/WhatWeDo'
 import { VisionMission } from '@/components/blocks/VisionMission'
 import LogoLoop from '@/components/ui/LogoLoop'
 import { Footer } from '@/components/ui/footer-section';
+import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 const partnerLogos = [
 
@@ -29,8 +30,7 @@ const partnerLogos = [
   { alt: 'VR Coatings', src: 'logos/image copy 14.png', href: 'https://www.vrcoatings.net/' },
   { alt: 'Tech Star', src: 'logos/tech-removebg-preview.png', href: 'https://maps.app.goo.gl/ToVJDgKjR2dfNbdM7' },
   { alt: 'Sourcepoint', src: 'logos/image copy 15.png', href: 'https://www.sourcepointindia.com/' },
-
-];
+].map(p => ({ ...p, src: getCloudinaryUrl(p.src) }));
 
 export default function Home() {
   return (
