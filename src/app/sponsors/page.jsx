@@ -21,33 +21,36 @@ const SPONSORS = {
         { name: 'Altium', logo: '/logos/altium_logo.png', href: "https://altium.com/" },
         { name: 'TechnoWings', logo: '/logos/image copy 3.png', href: "https://technowingsind.com/" },
         { name: 'Odrive', logo: '/logos/image copy 4.png', href: "https://odriverobotics.com/" },
+        { name: 'Slamtec', logo: '/logos/image.png', href: "https://www.slamtec.com/en?gad_source=1&gad_campaignid=22761052052&gclid=CjwKCAiAjojLBhAlEiwAcjhrDu-3GhE6CfJO7UHLjn3WiTVN9Xs7dnYXhkFhsIRMCwAY4wXTbIwoCRoCcygQAvD_BwE" },
     ],
     gold: [
         { name: 'Arihant ', logo: 'logos/arihant-removebg-preview.png', href: "https://www.google.com/maps/place/Arihant+Electrical+Services,+Mahindra+Gate+2,+Maharashtra+410501/data=!4m2!3m1!1s0x3bc2b71f8aa53579:0x2ae99224ae170c37?utm_source=mstt_1&entry=gps&lucs=47068609&g_ep=CAESCTExLjgzLjMwMRgAINeCAyoINDcwNjg2MDlCAklO" },
         { name: 'YOJAK', logo: '/logos/image copy 5.png', href: "https://yojak.org/" },
         { name: 'CYTRON', logo: '/logos/image copy 7.png', href: "https://www.cytron.io/" },
         { name: 'SEQURE', logo: '/logos/image copy 8.png', href: "https://sequremall.com/" },
-        { name: 'Microlaser', logo: '/logos/microlaser.PNG', href: "https://microlaser.com" },
+        { name: 'Ploymaker', logo: 'logos/ploymaker.png', href: "https://polymaker.com/" },
 
     ],
     silver: [
         { name: 'Ashok Laser', logo: '/logos/ashok laser.jpg', href: "https://ashoklaser.com/" },
         { name: 'Baker', logo: '/logos/baker.png', href: "https://bakergauges.com/" },
-        { name: 'Fabxotic', logo: '/logos/image copy 10.png', href: "https://www.fabxotic.com/" },
+        { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8" },
+        { name: 'pranita industries', logo: '/logos/pranita industries.png', href: "https://maps.app.goo.gl/M28mNYkEC5WHgn5S8" },
         { name: 'SK Tooling', logo: '/logos/image copy 11.png', href: "https://maps.app.goo.gl/aVtCzpCbYfgwKoHh9" },
         { name: 'MOLEX', logo: '/logos/copy image 13.png', href: "https://www.molex.com/en-us/home" },
         { name: 'Only Screws', logo: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" },
-        { name: 'Slamtec', logo: '/logos/image.png', href: "https://www.slamtec.com/en?gad_source=1&gad_campaignid=22761052052&gclid=CjwKCAiAjojLBhAlEiwAcjhrDu-3GhE6CfJO7UHLjn3WiTVN9Xs7dnYXhkFhsIRMCwAY4wXTbIwoCRoCcygQAvD_BwE" },
+        { name: 'Microlaser', logo: '/logos/microlaser.PNG', href: "https://microlaser.com" },
+        { name: 'Sourcepoint', logo: 'logos/image copy 15.png', href: 'https://www.sourcepointindia.com/' },
     ],
     bronze: [
-        { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8" },
-        { name: 'pranita industries', logo: '/logos/pranita industries.png', href: "https://maps.app.goo.gl/M28mNYkEC5WHgn5S8" },
+        { name: 'Santosh Engineering Work', logo: 'logos/image copy.png', href: "https://maps.app.goo.gl/QpUiN9akvKrxq7po6" },
+        { name: 'Fabxotic', logo: '/logos/image copy 10.png', href: "https://www.fabxotic.com/" },
+
         { name: 'Dhanashree Lathe ', logo: '/logos/dhan-removebg-preview.png', href: "https://maps.app.goo.gl/LdXgyBqwPoz2zK2r9" },
         { name: 'VR Coatings', logo: 'logos/image copy 14.png', href: 'https://www.vrcoatings.net/' },
         { name: 'Tech Star', logo: 'logos/tech-removebg-preview.png', href: 'https://maps.app.goo.gl/ToVJDgKjR2dfNbdM7' },
-        { name: 'Sourcepoint', logo: 'logos/image copy 15.png', href: 'https://www.sourcepointindia.com/' },
-        { name: 'Ploymaker', logo: 'logos/ploymaker.png', href: "https://polymaker.com/" },
-        { name: 'Santosh Engineering Work', logo: 'logos/image copy.png', href: "https://maps.app.goo.gl/QpUiN9akvKrxq7po6" },
+
+
     ]
 };
 
