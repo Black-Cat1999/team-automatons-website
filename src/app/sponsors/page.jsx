@@ -38,6 +38,8 @@ const SPONSORS = {
         { name: 'Only Screws', logo: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" }
     ],
     bronze: [
+        { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8" },
+        { name: 'pranita industries', logo: '/logos/pranita industries.png', href: "https://maps.app.goo.gl/M28mNYkEC5WHgn5S8" },
         { name: 'Dhanashree Lathe ', logo: '/logos/dhan-removebg-preview.png', href: "https://maps.app.goo.gl/LdXgyBqwPoz2zK2r9" },
         { name: 'VR Coatings', logo: 'logos/image copy 14.png', href: 'https://www.vrcoatings.net/' },
         { name: 'Tech Star', logo: 'logos/tech-removebg-preview.png', href: 'https://maps.app.goo.gl/ToVJDgKjR2dfNbdM7' },

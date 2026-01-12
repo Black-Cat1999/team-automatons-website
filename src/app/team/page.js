@@ -15,96 +15,96 @@ const TEAM_DATA = {
                 name: 'Rajvardhan Pawar',
                 role: 'Head Admin',
                 photo: '/team/2026/Rajvardhan.webp',
-                email: 'piyushspatil225@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/piyush-patil-8630ab292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                email: 'rajvardhanpawar57@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/rajvardhan-pawar-66981a259'
             },
             {
                 id: '2026-c2',
                 name: 'Harshvardhan Mule',
                 role: 'Co - Head Admin (Robocon)',
                 photo: '/team/2026/Harshvardhan.webp',
-                email: 'vardhansk18115@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/vardhan-santosh-khinvasara-9a79a8296/'
+                email: 'harshvardhanmule0203@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/harshvardhan-mule'
             },
             {
                 id: '2026-c3',
                 name: 'Prasad Lokhande',
                 role: 'Co-Managing Director(Space Robotics)',
                 photo: '/team/2026/Prasad.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'prasadlokh@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/prasad-lokhande-a1591b275'
             },
             {
                 id: '2026-c4',
                 name: 'Ashwini Lodade',
                 role: 'Mechanical Admin',
                 photo: '/team/2026/Ashwini.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'ashwinilodade4@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/ashwini-lodade-558814259'
             },
             {
                 id: '2026-c5',
                 name: 'Krishna Hivare',
                 role: 'Electronics Admin',
                 photo: '/team/2026/Krishna.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'hiwarekrishna0@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/krushna-hiware-648480259'
             },
             {
                 id: '2026-c6',
                 name: 'Samiksha Hivare',
                 role: 'Programming Admin',
                 photo: '/team/2026/Samiksha.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'samikshadhurve.28@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/samiksha-dhurve-8a0793257'
             },
             {
                 id: '2026-c7',
                 name: 'Aarya Furade',
                 role: 'Networking Admin',
                 photo: '/team/2026/Aarya.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'aaryafurade@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/aarya-furade-537434210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-c8',
                 name: 'Om Parakh',
                 role: 'Finance Admin',
                 photo: '/team/2026/Om.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'omparekh425@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/om-parekh-365843259'
             },
             {
                 id: '2026-c9',
                 name: 'Shruti Date ',
                 role: 'HR',
                 photo: '/team/2026/Shruti.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'shrutidate2003@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/shruti-date-b56813259'
             },
             {
                 id: '2026-c10',
                 name: 'Aahana Mukhopadya ',
                 role: ' ',
                 photo: '/team/2026/Shruti.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'ahanam37@gmail.com',
+                linkedin: ''
             },
             {
                 id: '2026-c11',
                 name: 'Akshay Wani',
                 role: ' ',
                 photo: '/team/2026/Akshay.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'akshaywani1382004@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/akshay-wani2004'
             },
             {
                 id: '2026-c12',
                 name: 'Nikhil Jagadale',
                 role: ' ',
                 photo: '/team/2026/Nikhil.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'nikhiljagdale200414@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/nikhil--jagdale'
             },
             {
                 id: '2026-c13',
@@ -121,16 +121,16 @@ const TEAM_DATA = {
                 name: 'Piyush Satish Patil',
                 role: 'Managing Director',
                 photo: '/team/2026/Piyush.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'piyushspatil225@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/piyush-patil-8630ab292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h2',
                 name: 'Vardhan Santosh Khinvasara',
                 role: 'Co-Managing Director (Robocon)',
                 photo: '/team/2026/Vardhan.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'vardhansk18115@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/vardhan-santosh-khinvasara-9a79a8296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h3',
@@ -142,51 +142,51 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-h4',
-                name: 'Shreyash Jagadale',
+                name: 'Shreyash Umesh Jagadale',
                 role: 'Mechanical Head',
                 photo: '/team/2026/Shreyash.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'shreyash.jagadale.01@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/shreyash-jagadale-6930b3292/'
             },
             {
                 id: '2026-h5',
-                name: 'Chinmay Patil',
+                name: 'Chinmay Jitendra Patil',
                 role: 'Electrical Head',
                 photo: '/team/2026/Chinmay.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'pchinmay834@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/chinmay-patil-a430b0292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h6',
                 name: 'Om Jagtap',
                 role: 'Programming Head',
                 photo: '/team/2026/Om.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'omjagtap300@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/om-jagtap-506a76300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h7',
                 name: 'Laxmikanth Nannaware',
                 role: 'Finance Head',
                 photo: '/team/2026/Laxmikanth.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=laxmikantnn1@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/laxmikant-nannaware-4731a5275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h8',
                 name: 'Aditya Yadav',
                 role: 'Sr. Mechanical Engineer',
                 photo: '/team/2026/Aditya.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'aditya.yadav3514@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/aditya-yadav-20341b308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h9',
                 name: 'Sneha Pawar',
                 role: 'Sr. Mechanical Engineer',
                 photo: '/team/2026/Sneha.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'sneha.pawar23@pccoepune.org',
+                linkedin: 'https://www.linkedin.com/in/sneha-pawar-43b43a337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h10',
@@ -198,35 +198,35 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-h11',
-                name: 'Anushree Narkhede',
+                name: 'Anushree Sandeep Narayan',
                 role: 'Sr. Electrical Engineer',
                 photo: '/team/2026/Anushree.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'anushreesnarkhede@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/anushree-narkhede-7a84a9292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h12',
                 name: 'Devansh Jadhav',
                 role: 'Sr. Electrical Engineer',
                 photo: '/team/2026/Devansh.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'devanshjadhav2005@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/devansh-jadhav-1889b932a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h13',
                 name: 'Gauri',
                 role: 'Sr. Electrical Engineer',
                 photo: '/team/2026/Gauri.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'gauritarale124@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/gauri-tarale-a690b0292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-h14',
                 name: 'Shreya Zankar',
                 role: 'Sr. Electrical Engineer',
                 photo: '/team/2026/Shreya.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'shreyazankar021@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/shreyazankar021'
             },
             {
                 id: '2026-h15',
@@ -241,16 +241,16 @@ const TEAM_DATA = {
                 name: 'Sujata Swami',
                 role: 'Sr. Programming Engineer',
                 photo: '/team/2026/Sujata.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'sujata.automatons3@gmail.com',
+                linkedin: 'https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav'
             },
             {
                 id: '2026-h17',
                 name: 'Yash Sonje',
                 role: 'Sr. Programming Engineer',
                 photo: '/team/2026/Yash.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'yash.sonje23@pccoepune.org',
+                linkedin: 'https://www.linkedin.com/in/yash-sonje-5b6812292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             }
         ],
         "SY Members": [
@@ -259,24 +259,24 @@ const TEAM_DATA = {
                 name: 'Dhruvi Patel ',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Dhruvi.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: '2311dhruvipatel@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/dhruvipatel2311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m2',
-                name: 'Himanshu Warke ',
+                name: 'Himanshu Naresh Warke ',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Himanshu.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'himanshu.warke@24pccoepune.org',
+                linkedin: 'https://www.linkedin.com/in/himanshu-mech?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m3',
-                name: 'Mansi Dhake',
+                name: 'Manasi Sandeep Dhake',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Mansi.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'manasid808@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/manasi-dhake-52723437b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m4',
@@ -291,33 +291,33 @@ const TEAM_DATA = {
                 name: ' Prakhar Dubey',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Himanshu.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'prakhardubey797@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/prakhar-dubey-b3b942344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m6',
-                name: 'Pratap Randive',
+                name: 'Pratap Dhananjay Randive',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Himanshu.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'prataprandive2702@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/pratap-randive-8b8846302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m7',
-                name: 'Priya Nayak',
+                name: 'Priya Naik',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Himanshu.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'priya.naik24@pccoepune.org',
+                linkedin: 'https://www.linkedin.com/in/priya-naik-670a0632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
 
             {
                 id: '2026-m8',
-                name: 'Siddhesh Kurundkar',
+                name: 'Siddhesh Jayant kurundkar',
                 role: 'Jr. Mechanical Engineer',
                 photo: '/team/2026/Siddhesh.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'siddhesh192006@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/siddhesh-kurundkar-b2b03337a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m9',
@@ -329,27 +329,27 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-m10',
-                name: 'Atreya Rahegoankar',
+                name: 'Atreya Rahegaonkar',
                 role: 'Jr. Embedded Engineer',
                 photo: '/team/2026/Atreya.webp',
-                email: 'atharva.junghare2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/atharva-junghare-681782278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                email: 'atreyaxr@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/atreya-r/'
             },
             {
                 id: '2026-m11',
-                name: 'Ashana Kankariya ',
+                name: 'Ashna Abhijit Kankaria ',
                 role: 'Jr. Embedded Engineer',
                 photo: '/team/2026/Ashana.webp',
-                email: '',
-                linkedin: ''
+                email: 'ashnakankaria05@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/ashna-kankaria-99821732b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m12',
                 name: 'Atharva Phadke ',
                 role: 'Jr. Engineer',
                 photo: '/team/2026/',
-                email: '',
-                linkedin: ''
+                email: 'atharvaphadke8@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/atharvap8/'
             },
             {
                 id: '2026-m13',
@@ -361,11 +361,11 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-m14',
-                name: 'Laxmi ',
+                name: 'Laxmi Rupesh Chavhan ',
                 role: 'Jr. Electronics Circuit Design Engineer',
                 photo: '/team/2026/Laxmi.webp',
-                email: '',
-                linkedin: ''
+                email: 'laxmichavhan003@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/laxmi-chavhan-47121732b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
             },
             {
                 id: '2026-m15',
@@ -380,24 +380,24 @@ const TEAM_DATA = {
                 name: 'Shreya Janorkar',
                 role: 'Jr. Electronics Circuit Design Engineer',
                 photo: '/team/2026/Shreya J.webp',
-                email: '',
-                linkedin: ''
+                email: 'shreyajanorkar07@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/shreya-janorkar-b53126328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m17',
                 name: 'Siddhika Patil',
                 role: 'Jr. Electronics Circuit Design Engineer',
                 photo: '/team/2026/Siddhika.webp',
-                email: '',
-                linkedin: ''
+                email: 'siddhikapatil14@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/siddhika-patil-294a0a32a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m18',
-                name: 'Om Borade',
+                name: 'Om Borhade',
                 role: 'Jr. Electronics Circuit Design Engineer',
                 photo: '/team/2026/Om B.webp',
-                email: '',
-                linkedin: ''
+                email: 'omborhade1506@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/om-borhade-071a1032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m19',
@@ -412,8 +412,8 @@ const TEAM_DATA = {
                 name: 'Tanvi Patil',
                 role: 'Jr. Embedded Engineer',
                 photo: '/team/2026/Tanvi.webp',
-                email: '',
-                linkedin: ''
+                email: 'tanvi.n.patil@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/tanvi-patil-8aa21532b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m21',
@@ -425,27 +425,27 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-m22',
-                name: 'Ayush Gade',
+                name: 'Ayush Hanumant Gade',
                 role: 'Jr. ROS Engineer',
                 photo: '/team/2026/Ayush G.webp',
-                email: '',
-                linkedin: ''
+                email: 'ayush.gade241@pccoepune.org',
+                linkedin: 'https://www.linkedin.com/in/ayush-gade-34b226368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m23',
                 name: 'Gandharv Godse',
                 role: 'Jr. ROS Engineer',
                 photo: '/team/2026/Gandharva.webp',
-                email: '',
-                linkedin: ''
+                email: 'gandharvgodse2007@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/gandharva-godse-a3130a32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m24',
                 name: 'Hrushikesh Jagtap',
                 role: 'Jr. CV Engineer',
                 photo: '/team/2026/Hrushikesh.webp',
-                email: '',
-                linkedin: ''
+                email: 'hrushijagtap333@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/hrushikesh-jagtap-77b64232b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2026-m25',
