@@ -28,7 +28,7 @@ const SPONSORS = {
         { name: 'YOJAK', logo: '/logos/image copy 5.png', href: "https://yojak.org/" },
         { name: 'CYTRON', logo: '/logos/image copy 7.png', href: "https://www.cytron.io/" },
         { name: 'SEQURE', logo: '/logos/image copy 8.png', href: "https://sequremall.com/" },
-        { name: 'Ploymaker', logo: 'logos/ploymaker.png', href: "https://polymaker.com/" },
+        { name: 'Ploymaker', logo: '/logos/ploymaker.png', href: "https://polymaker.com/" },
 
     ],
     silver: [
