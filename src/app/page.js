@@ -10,8 +10,8 @@ import { getCloudinaryUrl } from '@/lib/cloudinary';
 const partnerLogos = [
 
   { alt: 'Solidworks', src: '/logos/image copy 2.png', href: "https://www.solidworks.com/" },
-  { alt: 'Altium', src: '/logos/altium_logo.png', href: "https://altium.com/" },
-  { alt: 'TechnoWings', src: '/logos/image copy 3.png', href: "https://technowingsind.com/" },
+  { alt: 'Altium', src: '/logos/download-removebg-preview copy.png', href: "https://altium.com/" },
+  { alt: 'TechnoWings', src: '/logos/image copy 9.png', href: "https://technowingsind.com/" },
   { alt: 'Odrive', src: '/logos/image copy 4.png', href: "https://odriverobotics.com/" },
   { alt: '3deology', src: '/logos/3deology.png', href: "https://www.3deology.co.in/" },
   { alt: 'MAHLE', src: '/logos/image copy 6.png', href: "https://mahle.com/" },
@@ -26,7 +26,7 @@ const partnerLogos = [
   { alt: 'Fabxotic', src: '/logos/image copy 10.png', href: "https://www.fabxotic.com/" },
   { alt: 'SK Tooling', src: '/logos/image copy 11.png', href: "https://maps.app.goo.gl/aVtCzpCbYfgwKoHh9" },
   { alt: 'MOLEX', src: '/logos/copy image 13.png', href: "https://www.molex.com/en-us/home" },
-  { alt: 'Only Screws', src: '/logos/download-removebg-preview.png', href: "https://www.onlyscrews.in/" },
+  { alt: 'Only Screws', src: '/logos/image copy 12.png', href: "https://www.onlyscrews.in/" },
   { alt: 'Dhanashree Lathe ', src: '/logos/dhan-removebg-preview.png', href: "https://maps.app.goo.gl/LdXgyBqwPoz2zK2r9" },
   { alt: 'VR Coatings', src: 'logos/image copy 14.png', href: 'https://www.vrcoatings.net/' },
   { alt: 'Tech Star', src: 'logos/tech-removebg-preview.png', href: 'https://maps.app.goo.gl/ToVJDgKjR2dfNbdM7' },
