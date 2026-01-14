@@ -123,12 +123,12 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-c13',
-                name: 'Pushkar Walwekar',
+                name: 'Pushkar Walvekar',
                 role: ' Admin ',
                 companyRole: '',
                 photo: '/team/2026/image.png',
-                email: '',
-                linkedin: ''
+                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=pushkar1514@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/pushkar-walvekar-2b9818259'
             },
         ],
         "TY Members": [
@@ -519,8 +519,8 @@ const TEAM_DATA = {
                 role: 'Jr. CV Engineer',
                 companyRole: '',
                 photo: '/team/2026/Prathamesh.webp',
-                email: '',
-                linkedin: ''
+                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=pratusonwalkar06@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/prathameshsonwalkar/'
             }
         ],
     },
@@ -556,7 +556,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2025-b4',
-                name: 'Nikita Savale',
+                name: 'Sarthak Joshi',
                 role: 'Programming Admin',
                 companyRole: '',
                 photo: '/team/2025/sarthak.webp',
@@ -786,7 +786,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2025-s7',
-                name: 'Shreyash Jagdale',
+                name: 'Shreyash Jagadale',
                 role: 'Junior Mechanical Engineer',
                 companyRole: '',
                 photo: '/team/2025/shreyash.webp',
