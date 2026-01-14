@@ -60,7 +60,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-c6',
-                name: 'Samiksha Hivare',
+                name: 'Samiksha Dhurve',
                 role: 'Programming Admin',
                 companyRole: 'ML Engineer - Quantiphi',
                 photo: '/team/2026/Samiksha.webp',
@@ -114,7 +114,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-c12',
-                name: 'Nikhil Jagadale',
+                name: 'Nikhil Jagdale',
                 role: 'Admin ',
                 companyRole: '(Previous) ROS intern - Technowings Automation Pvt. Ltd. ',
                 photo: '/team/2026/Nikhil.webp',
@@ -123,7 +123,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-c13',
-                name: 'Pushkar Jadhav',
+                name: 'Pushkar Walwekar',
                 role: ' Admin ',
                 companyRole: '',
                 photo: '/team/2026/image.png',
