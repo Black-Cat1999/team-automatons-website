@@ -269,7 +269,11 @@ export default function PixelCard({ variant = 'default', gap, speed, colors, noF
             onMouseLeave={onMouseLeave}
             onFocus={finalNoFocus ? undefined : onFocus}
             onBlur={finalNoFocus ? undefined : onBlur}
-            onTouchStart={onMouseEnter}
+            onTouchStart={(e) => {
+                if (!finalNoFocus) {
+                    e.currentTarget.focus();
+                }
+            }}
             tabIndex={finalNoFocus ? -1 : 0}
         >
             <canvas className="pixel-canvas" ref={canvasRef} />

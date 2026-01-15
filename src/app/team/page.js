@@ -242,7 +242,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-h13',
-                name: 'Gauri',
+                name: 'Gauri Tarale',
                 role: 'Sr. Electronics Circuit Designer',
                 companyRole: '',
                 photo: '/team/2026/Gauri.webp',

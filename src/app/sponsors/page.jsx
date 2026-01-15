@@ -18,7 +18,7 @@ const SPONSORS = {
         { name: '3deology', logo: '/logos/3deology.png', href: "https://www.3deology.co.in/" },
         { name: 'MAHLE', logo: '/logos/image copy 6.png', href: "https://mahle.com/" },
         { name: 'Solidworks', logo: '/logos/image copy 2.png', href: "https://www.solidworks.com/" },
-        { name: 'Altium', logo: '/logos/download-removebg-preview copy.png', href: "https://altium.com/" },
+        { name: 'Altium', logo: '/logos/download-removebg-preview copy.png', href: "https://altium.com/", scale: 2 },
         { name: 'TechnoWings', logo: '/logos/image copy 9.png', href: "https://technowingsind.com/" },
         { name: 'Odrive', logo: '/logos/image copy 4.png', href: "https://odriverobotics.com/" },
         { name: 'Slamtec', logo: '/logos/header-logo-removebg-preview.png', href: "https://www.slamtec.com/en?gad_source=1&gad_campaignid=22761052052&gclid=CjwKCAiAjojLBhAlEiwAcjhrDu-3GhE6CfJO7UHLjn3WiTVN9Xs7dnYXhkFhsIRMCwAY4wXTbIwoCRoCcygQAvD_BwE" },
@@ -34,7 +34,7 @@ const SPONSORS = {
     silver: [
         { name: 'Ashok Laser', logo: '/logos/ashok laser.jpg', href: "https://ashoklaser.com/" },
         { name: 'Baker', logo: '/logos/baker.png', href: "https://bakergauges.com/" },
-        { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8" },
+        { name: 'Tulesh industries', logo: '/logos/himanshu industries.png', href: "https://maps.app.goo.gl/fajtt3vJf8Siwttb8", scale: 2, translateY: '-30px', translateX: '-10px' },
         { name: 'pranita industries', logo: '/logos/pranita industries.png', href: "https://maps.app.goo.gl/M28mNYkEC5WHgn5S8" },
         { name: 'SK Tooling', logo: '/logos/image copy 11.png', href: "https://maps.app.goo.gl/aVtCzpCbYfgwKoHh9" },
         { name: 'MOLEX', logo: '/logos/copy image 13.png', href: "https://www.molex.com/en-us/home" },
@@ -97,6 +97,7 @@ export default function SponsorsPage() {
                                                             src={getCloudinaryUrl(sponsor.logo)}
                                                             alt={sponsor.name}
                                                             className="max-w-full max-h-full object-contain"
+                                                            style={{ transform: `scale(${sponsor.scale || 1}) translateY(${sponsor.translateY || '0px'})` }}
                                                         />
                                                     </a>
                                                 </div>
