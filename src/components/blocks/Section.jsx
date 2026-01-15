@@ -23,7 +23,7 @@ export function Section() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-600/30 rounded-full blur-[100px] pointer-events-none mix-blend-screen z-0" />
 
             {/* Robot Background - Responsive Positioning */}
-            <div className="absolute inset-y-0 left-0 w-full lg:w-[75%] xl:w-[70%] z-10 transition-transform duration-700">
+            <div className="absolute inset-y-0 left-0 w-full lg:w-[75%] xl:w-[70%] z-10 transition-transform duration-700 -translate-x-15 md:-translate-x-30">
                 <InteractiveRobotSpline
                     scene={ROBOT_SCENE_URL}
                     className="w-full h-full object-cover"

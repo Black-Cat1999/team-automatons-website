@@ -188,7 +188,7 @@ const TEAM_DATA = {
             },
             {
                 id: '2026-h7',
-                name: 'Laxmikanth Nannaware',
+                name: 'Laxmikant Nannaware',
                 role: 'Finance Head',
                 companyRole: '',
                 photo: '/team/2026/Laxmikanth.webp',
@@ -867,12 +867,12 @@ const TEAM_DATA = {
             },
             {
                 id: '2025-s16',
-                name: 'Sahil Narkhede',
+                name: 'Laxmikant Nannaware',
                 role: 'Junior Engineer',
                 companyRole: '',
-                photo: '/team/2025/sahil.webp',
-                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=sahilnarkhede2005@gmail.com',
-                linkedin: 'https://www.linkedin.com/in/sahil-narkhede-5b1551292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                photo: '/team/2025/laxmikant.webp',
+                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=laxmikantnn1@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/laxmikant-nannaware-4731a5275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
                 id: '2025-s17',
@@ -885,6 +885,15 @@ const TEAM_DATA = {
             },
             {
                 id: '2025-s18',
+                name: 'Sahil Narkhede',
+                role: 'Junior Engineer',
+                companyRole: '',
+                photo: '/team/2025/sahil.webp',
+                email: 'https://mail.google.com/mail/?view=cm&fs=1&to=sahilnarkhede2005@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/sahil-narkhede-5b1551292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+            },
+            {
+                id: '2025-s19',
                 name: 'Shravani Pajgade',
                 role: 'Junior Engineer',
                 companyRole: '',
@@ -893,7 +902,7 @@ const TEAM_DATA = {
                 linkedin: 'https://www.linkedin.com/in/shravani-pajgade-ab4169242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
             },
             {
-                id: '2025-s19',
+                id: '2025-s20',
                 name: 'Shreya Zankar',
                 role: 'Junior Engineer',
                 companyRole: '',
@@ -902,7 +911,7 @@ const TEAM_DATA = {
                 linkedin: 'https://www.linkedin.com/in/shreya-zankar-316602292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
-                id: '2025-s20',
+                id: '2025-s21',
                 name: 'Om Jagtap',
                 role: 'Junior Programming Engineer',
                 companyRole: '',
@@ -911,7 +920,7 @@ const TEAM_DATA = {
                 linkedin: 'https://www.linkedin.com/in/om-jagtap-506a76300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
-                id: '2025-s21',
+                id: '2025-s22',
                 name: 'Sujata Swami',
                 role: 'Junior Engineer',
                 companyRole: '',
@@ -920,7 +929,7 @@ const TEAM_DATA = {
                 linkedin: 'http://www.linkedin.com/in/sujataswami'
             },
             {
-                id: '2025-s22',
+                id: '2025-s23',
                 name: 'Vardhan Khinvasara',
                 role: 'Junior Engineer',
                 companyRole: '',
@@ -929,7 +938,7 @@ const TEAM_DATA = {
                 linkedin: 'https://www.linkedin.com/in/vardhan-khinvasara-9a79a8296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             },
             {
-                id: '2025-s23',
+                id: '2025-s24',
                 name: 'Yash Sonje',
                 role: 'Junior Programming Engineer',
                 companyRole: '',
